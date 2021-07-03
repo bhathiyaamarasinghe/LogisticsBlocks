@@ -1,25 +1,29 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import {Video} from "../images/video.mp4";
+import { Video } from "../images/video.mp4";
 
 class Home extends React.Component {
     render() {
         return (
             <div>
-                  <Header/>
+                <Header />
 
                 {/* <!-- ***** Main Banner Area Start ***** --> */}
                 <section class="section main-banner" id="top" data-section="section1">
                     {/* <video autoplay muted loop id="bg-video">
                         <source src="assets/images/video.mp4" type="video/mp4" />
                     </video> */}
-                    <video src="assets/images/video.mp4" autoPlay muted loop  id="bg-video"/>
+                    <video src="assets/images/video.mp4" autoPlay muted loop id="bg-video" />
                     {/* <img src="assets/images/choose-us-image-01.png" id="bg-video" alt="" /> */}
                     <div class="video-overlay header-text">
                         <div class="caption">
-                            <h6>Colloborate with block chaining</h6>
+                           
+                            <img height="150" width="540"src="assets/images/logo-sign.png" alt="" />
                             <h2><em>Logistics</em> Blocks</h2>
+
+                            <h6>"Colloborate with block chaining"</h6>
+                            <br/>
                             <div class="main-button">
                                 <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
                             </div>
@@ -36,10 +40,10 @@ class Home extends React.Component {
                                 <div class="features-post">
                                     <div class="features-content">
                                         <div class="content-show">
-                                            <h4><i class="fa fa-cog"></i>Developments</h4>
+                                            <h4><i class="fa fa-cog"></i>Research </h4>
                                         </div>
                                         <div class="content-hide">
-                                            <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                                            <p>We are doing </p>
                                             <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                                             <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
                                         </div>
@@ -89,7 +93,7 @@ class Home extends React.Component {
                             <div class="col-md-12">
                                 <div id='tabs'>
                                     <ul>
-                                        <li><a href='#tabs-1'>Developments</a></li>
+                                        <li><a href='#tabs-1'>Research & Developments</a></li>
                                         <li><a href='#tabs-2'>Block Chains</a></li>
                                         <li><a href='#tabs-3'>Quality Controlling</a></li>
                                     </ul>
@@ -100,11 +104,12 @@ class Home extends React.Component {
                                                     <img src="assets/images/choose-us-image-01.jpg" alt="" />
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <h4>Developments</h4>
-                                                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p>
+                                                    <h4>Research & Developments</h4>
+                                                    <p>We doing various kind of research and developments in Sri Lankan and global agriculture, import / export and e-commerce areas.Logistics blocks standing with young blood to make innovations for the global market.We are like to collobarate with you to first done a research and second have a development process.<a href="https://paypal.me/templatemo" target="_parent" rel="sponsored"></a> </p>
                                                 </div>
                                             </div>
                                         </article>
+
                                         <article id='tabs-2'>
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -112,11 +117,12 @@ class Home extends React.Component {
                                                 </div>
                                                 <div class="col-md-6">
                                                     <h4>Block chains</h4>
-                                                    <p>You can modify this HTML layout by editing contents and adding more pages as you needed. Since this template has options to add dropdown menus, you can put many HTML pages.</p>
-                                                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+                                                    <p>Logistics Blocks like to implement this block chain concept to Sri Lanka and the whole global market.We are applying this block chain concept for different areas.For that, we have a talented team with the technical mind. Also We implement this block chains with the American and Europien colloboratios in Sri Lanka</p>
+
                                                 </div>
                                             </div>
                                         </article>
+                                        <br />
                                         <article id='tabs-3'>
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -124,7 +130,7 @@ class Home extends React.Component {
                                                 </div>
                                                 <div class="col-md-6">
                                                     <h4>Quality Controlling</h4>
-                                                    <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. For more information, you shall <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> now.</p>
+                                                    <p>We introduce a unique solution for quality controlling in any major area.Specially we identify the low quality issue is a majorissue in transportation industry.Logistics Blocks have a efficient and effective solution for you to avoid that issue  </p>
                                                 </div>
                                             </div>
                                         </article>
@@ -138,30 +144,35 @@ class Home extends React.Component {
                 <section class="section coming-soon" data-section="section3">
                     <div class="container">
                         <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-heading">
+                                    <h2>About US</h2>
+                                </div>
+                            </div>
                             <div class="col-md-7 col-xs-12">
                                 <div class="continer centerIt">
                                     <div>
-                                        <h4>Take <em>any online course</em> and win $326 for your next class</h4>
+                                        <h4><em>We have expirience with in this industry</em></h4>
                                         <div class="counter">
 
                                             <div class="days">
                                                 <div class="value">00</div>
-                                                <span>Days</span>
+                                                <h6>Research & Development</h6>
                                             </div>
 
                                             <div class="hours">
                                                 <div class="value">00</div>
-                                                <span>Hours</span>
+                                                <h6>Block Chains</h6>
                                             </div>
 
                                             <div class="minutes">
                                                 <div class="value">00</div>
-                                                <span>Minutes</span>
+                                                <h6>Software Solutions</h6>
                                             </div>
 
                                             <div class="seconds">
                                                 <div class="value">00</div>
-                                                <span>Seconds</span>
+                                                <h6>Quality Controlling</h6>
                                             </div>
 
                                         </div>
@@ -171,7 +182,7 @@ class Home extends React.Component {
                             <div class="col-md-5">
                                 <div class="right-content">
                                     <div class="top-content">
-                                        <h6>Register your free account and <em>get immediate</em> access to online courses</h6>
+                                        <h6>If u have any inqueries ..please contact us</h6>
                                     </div>
                                     <form id="contact" action="" method="get">
                                         <div class="row">
@@ -203,184 +214,29 @@ class Home extends React.Component {
                     </div>
                 </section>
 
-                <section class="section courses" data-section="section4">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="section-heading">
-                                    <h2> Your Course</h2>
-                                </div>
-                            </div>
-                            <div class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <img src="assets/images/courses-01.jpg" alt="Course #1" />
-                                    <div class="down-content">
-                                        <h4>Digital Marketing</h4>
-                                        <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-01.png" alt="Author 1" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-02.jpg" alt="Course #2" />
-                                    <div class="down-content">
-                                        <h4>Business World</h4>
-                                        <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-02.png" alt="Author 2" />
-                                        </div>
-                                        <div class="text-button-free">
-                                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-03.jpg" alt="Course #3" />
-                                    <div class="down-content">
-                                        <h4>Media Technology</h4>
-                                        <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-03.png" alt="Author 3" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-04.jpg" alt="Course #4" />
-                                    <div class="down-content">
-                                        <h4>Communications</h4>
-                                        <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-04.png" alt="Author 4" />
-                                        </div>
-                                        <div class="text-button-free">
-                                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-05.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Business Ethics</h4>
-                                        <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-05.png" alt="" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-01.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Photography</h4>
-                                        <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-01.png" alt="" />
-                                        </div>
-                                        <div class="text-button-free">
-                                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-02.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Web Development</h4>
-                                        <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-02.png" alt="" />
-                                        </div>
-                                        <div class="text-button-free">
-                                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-03.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Learn HTML CSS</h4>
-                                        <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-03.png" alt="" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-04.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Social Media</h4>
-                                        <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-04.png" alt="" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-05.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Digital Arts</h4>
-                                        <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-05.png" alt="" />
-                                        </div>
-                                        <div class="text-button-free">
-                                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/courses-01.jpg" alt="" />
-                                    <div class="down-content">
-                                        <h4>Media Streaming</h4>
-                                        <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                                        <div class="author-image">
-                                            <img src="assets/images/author-01.png" alt="" />
-                                        </div>
-                                        <div class="text-button-pay">
-                                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
 
                 <section class="section video" data-section="section5">
+                    
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 align-self-center">
                                 <div class="left-content">
-                                    <span>our presentation is for you</span>
-                                    <h4>Watch the video to learn more <em>about Grad School</em></h4>
-                                    <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
-                  <br /><br />Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-                                    <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
+                                    <h6><em >"Post world war II is an vital era to the world. Liberalism, world peace have been increasing day by day, and people start to live more than before world war II. As human growth increases rapidly, people needed increase rapidly as well. So, we need to supply human needs efficiently as well as we have to protect the environment and the quality of products"</em>
+                             <br />
+                                        <br />Our Mission: 
+                                        <br/>To use blockchain as our building blocks and other technical tools to provide environment-friendly supply chain solutions to the world to connect all logistics blocks to provide human needs most efficiently than ever
+                            <br />
+                                        <br />
+                                        <br />Our Slogan:
+                                        <br/>Protecting the quality of the earth is an art.
+                             </h6>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <article class="video-item">
-                                    <div class="video-caption">
-                                        <h4>Power HTML Template</h4>
-                                    </div>
-                                    <figure>
-                                        <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png" /></a>
-                                    </figure>
+
+
                                 </article>
                             </div>
                         </div>
@@ -392,7 +248,7 @@ class Home extends React.Component {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="section-heading">
-                                    <h2>Let’s Keep In Touch</h2>
+                                    <h2>Contact US</h2>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -435,7 +291,7 @@ class Home extends React.Component {
                     </div>
                 </section>
 
-                <Footer/>
+                <Footer />
 
             </div>
         );

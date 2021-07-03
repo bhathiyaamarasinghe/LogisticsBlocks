@@ -7,7 +7,11 @@ class Header extends React.Component {
             <div>
                 <header class="main-header clearfix" role="header">
                     <div class="logo">
-                        <a href="#"><em>Logistics</em>Blocks</a>
+                        <a href="#">
+                     <em>Logistics</em> Blocks
+                        </a>
+                        {/* <img left="20" position="absolute" height="100" width="400" src="assets/images/logo-sign.png" alt="" /> */}
+                     
                     </div>
                     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
                     <nav id="menu" class="main-nav" role="navigation">
